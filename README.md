@@ -8,8 +8,11 @@ https://api-http.littlebitscloud.cc/subscriptions
 headers: 
 Authorization: Bearer YOUR_TOKEN
 
-payload: - in json
+payload: <br />
 {
-subscriber_id: YOUR_DEVICE_ID
-publisher_id: URL_WHERE_TO_POST_TO
+  "publisher_events": [
+      "amplitude:delta:ignite"
+  ],
+  "publisher_id": "00e04c034257",
+  "subscriber_id": "http://misprojects.org/littlebits/cloud/test.php"
 }
