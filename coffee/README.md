@@ -5,10 +5,10 @@ Curl the following:
 
 url: <br />
 https://api-http.littlebitscloud.cc/subscriptions
-<br />
+<br /><br />
 headers: <br />
 Authorization: Bearer YOUR_TOKEN
-<br />
+<br /><br />
 payload: <br />
 {<br />
   publisher_events: [<br />
