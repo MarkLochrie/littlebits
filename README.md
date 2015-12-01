@@ -2,17 +2,17 @@
 
 Curl the following:
 
-url: 
+url: <br />
 https://api-http.littlebitscloud.cc/subscriptions
-
-headers: 
+<br />
+headers: <br />
 Authorization: Bearer YOUR_TOKEN
-
+<br />
 payload: <br />
 {<br />
   "publisher_events": [<br />
       "amplitude:delta:ignite"<br />
   ],<br />
-  "publisher_id": "00e04c034257",<br />
-  "subscriber_id": "http://misprojects.org/littlebits/cloud/test.php"<br />
+  "publisher_id": "YOUR_DEVICE_ID",<br />
+  "subscriber_id": "URL_WHERE_TO_POST"<br />
 }<br />
